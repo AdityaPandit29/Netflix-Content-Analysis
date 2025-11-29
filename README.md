@@ -130,7 +130,7 @@ Outputs:
 ### **2. Genre Diversity (Herfindahl Index)**  
 Measures how evenly Netflix distributes content across genres.
 
-Diversity = 1 - Σ(genre_share²) 
+Diversity = 1 - Σ(genre_share²)  
 Higher score → more diverse catalog.
 
 ---
@@ -165,23 +165,23 @@ A 2×2 dashboard with:
 
 ## Project Structure
 
-Netflix-Content-Analysis/ 
-│ 
-├── notebooks/ 
-│ └── netflix_analysis.ipynb # Full analysis notebook 
-│ 
-├── images/ 
-│ ├── univariate_summary.png # 6-in-1 visualization dashboard 
-│ ├── bivariate_summary.png # 6-in-1 visualization dashboard 
-│ ├── freshness_pie.png 
-│ └── advanced_analytics_summary.png 
-│ 
-├── data/ 
-│ └── netflix_titles.csv # Original dataset 
-│ └── netflix_cleaned.csv # Cleaned dataset 
-│ └── netflix_features.csv # Featured dataset 
-│ 
-└── README.md 
+Netflix-Content-Analysis/  
+│  
+├── notebooks/  
+│ └── netflix_analysis.ipynb # Full analysis notebook  
+│  
+├── images/  
+│ ├── univariate_summary.png # 6-in-1 visualization dashboard  
+│ ├── bivariate_summary.png # 6-in-1 visualization dashboard  
+│ ├── freshness_pie.png  
+│ └── advanced_analytics_summary.png  
+│  
+├── data/  
+│ └── netflix_titles.csv # Original dataset  
+│ └── netflix_cleaned.csv # Cleaned dataset  
+│ └── netflix_features.csv # Featured dataset  
+│  
+└── README.md  
 
 ---
 
